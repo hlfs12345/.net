@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="20230819235457_MigracaoInicial.cs" />
+    <Compile Remove="20230819235457_MigracaoInicial.Designer.cs" />
+    <Compile Remove="20230820143527_AjusteTabelas.cs" />
+    <Compile Remove="20230820143527_AjusteTabelas.Designer.cs" />
+    <Compile Remove="20230822121339_PopulaCategorias.cs" />
+    <Compile Remove="20230822121339_PopulaCategorias.Designer.cs" />
+    <Compile Remove="20230822121945_PopulaProdutos.cs" />
+    <Compile Remove="20230822121945_PopulaProdutos.Designer.cs" />
+    <Compile Remove="20231126143925_CriaTabelasIdentity.cs" />
+    <Compile Remove="20231126143925_CriaTabelasIdentity.Designer.cs" />
+    <Compile Remove="20231206104337_AjusteApplicationUser.cs" />
+    <Compile Remove="20231206104337_AjusteApplicationUser.Designer.cs" />
+    <Compile Remove="AppDbContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0-beta.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.7" />
+  </ItemGroup>
+
+</Project>
