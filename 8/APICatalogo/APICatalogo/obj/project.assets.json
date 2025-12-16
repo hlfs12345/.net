@@ -3584,23 +3584,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zaykros\\.nuget\\packages\\": {},
-    "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\hilton.souza\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\.Net\\8\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+      "projectUniqueName": "C:\\Users\\hilton.souza\\Documents\\Projetos\\.Net\\8\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
       "projectName": "APICatalogo",
-      "projectPath": "E:\\Projetos\\.Net\\8\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
-      "packagesPath": "C:\\Users\\Zaykros\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\.Net\\8\\APICatalogo\\APICatalogo\\obj\\",
+      "projectPath": "C:\\Users\\hilton.souza\\Documents\\Projetos\\.Net\\8\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+      "packagesPath": "C:\\Users\\hilton.souza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hilton.souza\\Documents\\Projetos\\.Net\\8\\APICatalogo\\APICatalogo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Zaykros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hilton.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3609,7 +3609,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
